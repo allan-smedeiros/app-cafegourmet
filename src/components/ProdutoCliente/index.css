@@ -1,0 +1,27 @@
+.produto-cliente__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.produto-cliente__foto {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.produto-cliente__esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.produto-cliente__direita {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.produto-cliente__descricao {
+  font-size: 0.6rem;
+}

@@ -1,0 +1,7 @@
+.vitrine__produtos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.6rem;
+
+  margin-top: 1.5rem;
+}

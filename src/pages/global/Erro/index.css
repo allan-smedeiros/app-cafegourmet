@@ -1,0 +1,21 @@
+.tela-erro__conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  gap: 2rem;
+}
+
+.tela-erro__conteudo p {
+  padding: 0 1.6rem;
+  text-align: center;
+}
+
+.tela-erro__conteudo .logo {
+  width: 60%;
+  max-width: 250px;
+}

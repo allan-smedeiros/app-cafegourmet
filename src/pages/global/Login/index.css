@@ -1,0 +1,30 @@
+.tela-login__conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  gap: 1rem;
+}
+
+.tela-login__conteudo form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+
+  margin-top: 15px;
+}
+
+.tela-login__conteudo fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tela-login__conteudo .logo {
+  width: 60%;
+  max-width: 250px;
+}

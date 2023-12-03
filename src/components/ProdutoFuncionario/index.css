@@ -1,0 +1,33 @@
+.produto-funcionario__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.produto-funcionario__foto {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.produto-funcionario__esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.produto-funcionario__direita {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.produto-funcionario__descricao {
+  font-size: 0.6rem;
+}
+
+.produto-funcionario__toggle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

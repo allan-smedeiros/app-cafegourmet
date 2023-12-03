@@ -1,0 +1,12 @@
+.template__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.template__conteudo {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+}

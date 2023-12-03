@@ -1,0 +1,16 @@
+.botao-icone {
+  all: unset;
+  background: #764b36;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+
+  text-align: center;
+  font-size: 0.875rem;
+  border-radius: 50%;
+}
+
+.botao-icone:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+}

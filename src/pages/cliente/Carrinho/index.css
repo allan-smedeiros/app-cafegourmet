@@ -1,0 +1,61 @@
+.carrinho__tabela {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.6rem;
+  width: 100%;
+
+  padding: 0.2rem 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.carrinho__tabela thead tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.carrinho__tabela tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+}
+
+.carrinho__tabela tr {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 0.6fr;
+}
+
+.carrinho__tabela input {
+  width: 100%;
+  max-width: 100px;
+}
+
+.carrinho__tabela-quantidade {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.carrinho__total {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  margin-top: 1.2rem;
+}
+
+.carrinho__botao-container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.carrinho__botao-container button {
+  width: 100%;
+}

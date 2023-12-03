@@ -1,0 +1,21 @@
+.resumo-pedido__secao {
+  margin-top: 2rem;
+}
+
+.resumo-pedido__secao p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.resumo-pedido__secao {
+  margin-top: 2rem;
+}
+
+.detalhes-pedido__botao-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+
+  margin-top: 2rem;
+}

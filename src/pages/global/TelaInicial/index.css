@@ -1,0 +1,16 @@
+.tela-inicial__conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  gap: 1rem;
+}
+
+.tela-inicial__conteudo .logo {
+  width: 60%;
+  max-width: 250px;
+}

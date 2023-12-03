@@ -1,0 +1,30 @@
+.menu__cliente {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0.75rem;
+
+  padding: 1.8rem 2rem;
+  width: 100%;
+}
+
+.menu__cliente li a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.menu__cliente li a svg {
+  color: #764b36;
+}
+
+.menu__cliente a {
+  all: unset;
+  width: 100%;
+}
+
+.menu__cliente li:hover {
+  cursor: pointer;
+  background: #edebeb;
+}
