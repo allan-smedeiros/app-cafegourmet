@@ -1,6 +1,6 @@
 /* eslint-disable no-case-declarations */
 import { createContext, useContext, useReducer } from "react";
-import { jwtDecode } from "jwt-decode";
+import jwtDecode from "jwt-decode";
 
 const AuthContext = createContext();
 
