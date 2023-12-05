@@ -80,9 +80,6 @@ export function FormProduto() {
   }
 
   function submit(data) {
-    console.log(data);
-    console.log(imagem);
-
     for (const key of Object.keys(data)) {
       if (!data[key] === "") {
         toast.warn("Preencha todos os campos");
@@ -107,7 +104,7 @@ export function FormProduto() {
     formData.append("ingredientes", data.ingredientes);
     formData.append("imagem", id ? "" : imagem[0]?.file);
 
-    if (id) return editar(formData);
+    if (id) return editar(data);
     criar(formData);
   }
 
